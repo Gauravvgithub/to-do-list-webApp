@@ -7,13 +7,16 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(145deg, #153677, #4e085f);
+    background-image: url(images/bgWallpaper.jpg);
+    background-size: cover;
     padding: 10px;
 }
 .todo-app{
     width: 100%;
     max-width: 540px;
-    background: white;
+    background-image: url(images/todo-bgWallpaper.jpg);
+    background-size: cover;
+    background-position: 100%;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
